@@ -211,7 +211,7 @@ class MainThread(QThread):  # main
                 webbrowser.get().open(url)
 
             elif "open command prompt" in self.query:
-                os.system("start cmd")
+                os.system("start cmd")   #to open cmd 
 
             elif "open camera" in self.query:
                 cam()
